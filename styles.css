@@ -1,0 +1,14 @@
+/* Thème clair par défaut */
+body {
+    background-color: white;
+    color: black;
+  }
+  
+  /* Media Query pour le thème sombre si le navigateur est configuré en mode sombre */
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: black;
+      color: white;
+    }
+  }
+  
